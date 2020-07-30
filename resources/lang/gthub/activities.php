@@ -2,6 +2,7 @@
 /**
  * Activity text strings.
  * Is used for all the text within activity logs & notifications.
+ * hello there
  */
 return [
 
@@ -26,14 +27,14 @@ return [
     'chapter_move'                => 'moved chapter',
 
     // Books
-    'book_create'                 => 'created book',
-    'book_create_notification'    => 'Book Successfully Created',
-    'book_update'                 => 'updated book',
-    'book_update_notification'    => 'Book Successfully Updated',
-    'book_delete'                 => 'deleted book',
-    'book_delete_notification'    => 'Book Successfully Deleted',
-    'book_sort'                   => 'sorted book',
-    'book_sort_notification'      => 'Book Successfully Re-sorted',
+    'book_create'                 => 'created topic',
+    'book_create_notification'    => 'Topic Successfully Created',
+    'book_update'                 => 'updated topic',
+    'book_update_notification'    => 'Topic Successfully Updated',
+    'book_delete'                 => 'deleted topic',
+    'book_delete_notification'    => 'Topic Successfully Deleted',
+    'book_sort'                   => 'sorted topic',
+    'book_sort_notification'      => 'Topic Successfully Re-sorted',
 
     // Bookshelves
     'bookshelf_create'            => 'created Bookshelf',
