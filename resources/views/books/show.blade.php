@@ -141,11 +141,5 @@
         </div>
     @endif
 
-    @if(count($activity) > 0)
-        <div class="mb-xl">
-            <h5>{{ trans('entities.recent_activity') }}</h5>
-            @include('partials.activity-list', ['activity' => $activity])
-        </div>
-    @endif
 @stop
 

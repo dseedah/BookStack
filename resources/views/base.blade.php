@@ -12,8 +12,9 @@
     <meta charset="utf-8">
 
     <!-- Styles and Fonts -->
-    <link rel="stylesheet" href="{{ versioned_asset('dist/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">    <link rel="stylesheet" href="{{ versioned_asset('dist/styles.css') }}">
     <link rel="stylesheet" media="print" href="{{ versioned_asset('dist/print-styles.css') }}">
+    <link rel="stylesheet" href="{{ versioned_asset('dist/custom-styles.css') }}">
 
     @yield('head')
 

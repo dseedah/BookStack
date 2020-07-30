@@ -2,7 +2,7 @@
 
 @section('body')
 
-    <div class="container px-xl py-s">
+   <!-- <div class="container px-xl py-s">
         <div class="grid half">
             <div>
                 <div class="icon-list inline block">
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <div class="container" id="home-default">
         <div class="grid third gap-xxl no-row-gap" >

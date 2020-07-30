@@ -3,15 +3,15 @@
 @section('body')
     <input type="hidden" name="searchTerm" value="{{$searchTerm}}">
 
-    <div class="container" id="search-system">
+    <div class="container" >
 
         <div class="my-s">
             &nbsp;
         </div>
 
-        <div class="grid right-focus reverse-collapse gap-xl">
-            <div>
-                <div>
+        <div class="grid right-focus reverse-collapse gap-xl" >
+            <div id="search-system">
+                <div >
                     <h5>{{ trans('entities.search_filters') }}</h5>
 
                     <form v-on:submit="updateSearch" v-cloak class="v-cloak anim fadeIn">
