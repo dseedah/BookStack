@@ -212,6 +212,9 @@ h1.list-heading:after {
     font-size: 1.12rem;
 }
 
+.book-contents .entity-list-item .icon {
+    width: 0;
+}
 
 .entity-item-snippet p .text-muted{
     color: green !important;
