@@ -205,3 +205,14 @@ h1.list-heading:after {
 .grid-card .grid-card-content+.grid-card-footer p {
     color: #575757 !important;
 }
+
+.entity-list h4,
+.icon-list h4 {
+    margin: 0;
+    font-size: 1.12rem;
+}
+
+
+.entity-item-snippet p .text-muted{
+    color: green !important;
+}
