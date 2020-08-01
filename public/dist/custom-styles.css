@@ -26,7 +26,7 @@ li.page-nav-item {
 .presentation .text-muted .entity-meta,
 #page-details .small-text,
 .entity-meta {
-    color: #fff !important;
+color:#333
 }
 
 .entity-list .page.draft .text-page,
@@ -75,7 +75,6 @@ h1#bkmrk-page-title {
 #sidebar,
 .actions {
     padding-left: 1rem;
-    background: #1976d2;
 }
 
 div#sidebar h5:first {
@@ -97,7 +96,7 @@ button.icon-list-item {
 .chapter-expansion>.icon,
 .entity-list-item,
 .icon-list-item {
-    color: #fff;
+    
     font-size: .8125rem;
     font-weight: 500;
     line-height: 1rem;
@@ -107,7 +106,6 @@ button.icon-list-item {
 .actions h5,
 .entity-details h5,
 .tri-layout-right h5 {
-    color: hsla(0, 0%, 100%, .7);
     padding: 0.5rem;
     margin: 0px;
     font-size: .8125rem;
@@ -145,11 +143,62 @@ header {
 }
 
 .pt-m {
-    margin-top: -10px;
-    padding-top: 20px !important;
+    margin-top: 0px;
+    padding-top: 0.75rem !important;
 }
 
 .book-tree ul.sidebar-page-list,
 .book-tree ul.sidebar-page-list ul {
     padding-left: 1rem;
+}
+
+.list-heading {
+    font-size: 1.5rem;
+    padding: 0;
+    position: relative;
+}
+
+.list-heading:after
+
+.tri-layout-container {
+    grid-column-gap: 0px;
+}
+
+.logo-image {
+    height: 41px;
+}
+
+.logo-text {
+    font-size: 1rem;
+    line-height: unset;
+}
+
+.list-heading {
+    font-size: 1.5rem;
+    padding: 0.25rem 0rem;
+    color: #1565c0;
+    /* margin-top: 2rem; */
+    position: relative;
+}
+
+
+h1.list-heading:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,#1976d2,rgba(25,118,210,0));
+    border-radius: 3px;
+}
+
+.grid-card p {
+    font-size: .7rem;
+    line-height: 1.6em;
+    color: green;
+}
+
+.grid-card .grid-card-content+.grid-card-footer p {
+    color: #575757 !important;
 }
