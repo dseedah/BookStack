@@ -192,6 +192,9 @@ h1.list-heading:after {
     background: linear-gradient(90deg,#1976d2,rgba(25,118,210,0));
     border-radius: 3px;
 }
+.grid-card h2 {
+    font-size: 1.15em;
+}
 
 .grid-card p {
     font-size: .7rem;
