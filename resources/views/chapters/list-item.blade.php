@@ -7,18 +7,3 @@
         </div>
     </div>
 </a>
-@if ($chapter->hasChildren())
-    <div class="chapter chapter-expansion">
-        <span class="icon text-chapter">@icon('page')</span>
-        <div class="content">
-            <button type="button" chapter-toggle
-                    aria-expanded="false"
-                    class="text-muted chapter-expansion-toggle">@icon('caret-right') <span>{{ trans_choice('entities.x_pages', $chapter->pages->count()) }}</span></button>
-            <div class="inset-list">
-                <div class="entity-list-item-children">
-                    @include('partials.entity-list', ['entities' => $chapter->pages])
-                </div>
-            </div>
-        </div>
-    </div>
-@endif
